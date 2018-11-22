@@ -11,34 +11,61 @@ app = Flask(__name__)
 CORS(app)
 # url = 'http://localhost/Notifications/'
 
-@app.route('/us/topDeals')
-def usTopDeals():
+@app.route('/us/fetchData')
+def usFetchData():
+
+	# US Top Deals
 	data = []
 	data += groupon.topDeals()
 	data += slickdeals.topDeals()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
-	return Response(json.dumps(response),  mimetype='application/json')
+	output_file = open('./coupons_data/usTopDeals.json','w+')
+	json.dump(response, output_file)
 
-@app.route('/us/fashion')
-def usFashion():
+	# US Fashion
 	data = []
 	data += groupon.menFashion()
 	data += groupon.womenFashion()
 	data += slickdeals.apparels()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
-	return Response(json.dumps(response),  mimetype='application/json')
+	output_file = open('./coupons_data/usFashion.json','w+')
+	json.dump(response, output_file)
 
-@app.route('/us/electronics')
-def usElectronics():
+	# US Electronics
 	data = []
 	data += groupon.electronics()
 	data += slickdeals.tech()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
+	output_file = open('./coupons_data/usElectronics.json','w+')
+	json.dump(response, output_file)
+
+	return Response('Data fetched successfully.')
+
+
+
+@app.route('/us/topDeals')
+def usTopDeals():
+	data_file = open('./coupons_data/usTopDeals.json','r')
+	response = json.load(data_file)
 	return Response(json.dumps(response),  mimetype='application/json')
-	
+
+@app.route('/us/fashion')
+def usFashion():
+	data_file = open('./coupons_data/usFashion.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/electronics')
+def usElectronics():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
 
 @app.route('/notificaionData')
 def fetchData():
