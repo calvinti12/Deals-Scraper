@@ -24,7 +24,7 @@ def getData(url):
 
 			imageContainer = containers[x].findAll('div', {'class':'imageContainer'})
 			image = imageContainer[0].findAll('img')
-			dealImage = image[0]['src']
+			dealImage = image[0]['data-original']
 
 			titleContainer = containers[x].findAll('a', {'class':'itemStore'})
 			if len(titleContainer)==0:
