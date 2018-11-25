@@ -4,6 +4,67 @@
 			"name" : "Groupon",
 			"logo" : "https://logo.clearbit.com/groupon.com",
 			"url" : "https://groupon.com"
-		}
+		},
+		{
+			"name" : "eBates",
+			"logo" : "https://logo.clearbit.com/ebates.com",
+			"url" : "https://www.ebates.com"
+		},
+		{
+			"name" : "Coupons.com",
+			"logo" : "https://logo.clearbit.com/coupons.com",
+			"url" : "https://coupons.com"
+		},
+		{
+			"name" : "RetailMeNot",
+			"logo" : "https://logo.clearbit.com/retailmenot.com",
+			"url" : "https://retailmenot.com"
+		},
+		{
+			"name" : "RedPlum",
+			"logo" : "https://logo.clearbit.com/redplum.com",
+			"url" : "http://www.redplum.com/"
+		},
+		{
+			"name" : "SmartSource",
+			"logo" : "https://logo.clearbit.com/smartsource.com",
+			"url" : "http://www.smartsource.com"
+		},
+		{
+			"name" : "ShopAtHome",
+			"logo" : "https://logo.clearbit.com/shopathome.com",
+			"url" : "https://www.shopathome.com/"
+		},
+		{
+			"name" : "Savings.com",
+			"logo" : "https://logo.clearbit.com/savings.com",
+			"url" : "https://savings.com"
+		},
+		{
+			"name" : "Slick Deals",
+			"logo" : "https://logo.clearbit.com/slickdeals.net",
+			"url" : "https://slickdeals.net/"
+		},
+		{
+			"name" : "The Krazy Coupon Lady",
+			"logo" : "https://logo.clearbit.com/thekrazycouponlady.com",
+			"url" : "https://thekrazycouponlady.com/print-coupons"
+		},
+		{
+			"name" : "Frugaa",
+			"logo" : "https://logo.clearbit.com/flamingoworld.com",
+			"url" : "http://www.flamingoworld.com/"
+		},
+		{
+			"name" : "Living Social",
+			"logo" : "https://logo.clearbit.com/livingsocial.com",
+			"url" : "https://www.livingsocial.com/"
+		},
+		{
+			"name" : "Hip2Save",
+			"logo" : "https://logo.clearbit.com/hip2save.com",
+			"url" : "https://hip2save.com/"
+		},
+
 	]
 }
