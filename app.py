@@ -233,6 +233,13 @@ def usGifts():
 	return Response(json.dumps(response),  mimetype='application/json')
 
 
+@app.route('/us/search/<query>')
+def usSearch(query):
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
 @app.route('/notificaionData')
 def fetchData():
 	url = 'https://www.groupon.com/'
