@@ -52,6 +52,14 @@ def usTopDeals():
 	response = json.load(data_file)
 	return Response(json.dumps(response),  mimetype='application/json')
 
+
+@app.route('/us/Food')
+def usFood():
+	data_file = open('./coupons_data/usFashion.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
 @app.route('/us/Clothes')
 def usFashion():
 	data_file = open('./coupons_data/usFashion.json','r')
