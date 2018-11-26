@@ -52,19 +52,185 @@ def usTopDeals():
 	response = json.load(data_file)
 	return Response(json.dumps(response),  mimetype='application/json')
 
-@app.route('/us/fashion')
+@app.route('/us/Clothes')
 def usFashion():
 	data_file = open('./coupons_data/usFashion.json','r')
 	response = json.load(data_file)
 	return Response(json.dumps(response),  mimetype='application/json')
 
 
-@app.route('/us/electronics')
+@app.route('/us/Electronics')
 def usElectronics():
 	data_file = open('./coupons_data/usElectronics.json','r')
 	response = json.load(data_file)
 	return Response(json.dumps(response),  mimetype='application/json')
 
+
+@app.route('/us/Lifestyle')
+def usLifestyle():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/Entertainment')
+def usEntertainment():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/Home Appliances')
+def usHomeAppliances():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/Retail')
+def usRetail():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+
+@app.route('/us/Personal Services')
+def usPersonalServices():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+
+@app.route('/us/Things To Do')
+def usThingsToDo():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+
+@app.route('/us/Toys')
+def usToys():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+
+@app.route('/us/Groceries')
+def usGroceries():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/Beauty')
+def usBeauty():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+@app.route('/us/Accessories')
+def usAccessories():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+
+
+
+@app.route('/us/Sports')
+def usSports():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+@app.route('/us/Travel')
+def usTravel():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+@app.route('/us/Hotels')
+def usHotels():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+@app.route('/us/Pets')
+def usPets():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+@app.route('/us/Books')
+def usBooks():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+@app.route('/us/Flowers')
+def usFlowers():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+
+@app.route('/us/Automotive')
+def usAutomotive():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
+@app.route('/us/Photography')
+def usPhotography():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+@app.route('/us/Baby')
+def usBaby():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
+
+@app.route('/us/Gifts')
+def usGifts():
+	data_file = open('./coupons_data/usElectronics.json','r')
+	response = json.load(data_file)
+	return Response(json.dumps(response),  mimetype='application/json')
 
 
 @app.route('/notificaionData')

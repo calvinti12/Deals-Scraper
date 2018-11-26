@@ -6,11 +6,6 @@
 			"url" : "https://groupon.com"
 		},
 		{
-			"name" : "eBates",
-			"logo" : "https://logo.clearbit.com/ebates.com",
-			"url" : "https://www.ebates.com"
-		},
-		{
 			"name" : "Coupons.com",
 			"logo" : "https://logo.clearbit.com/coupons.com",
 			"url" : "https://coupons.com"
@@ -46,6 +41,11 @@
 			"url" : "https://slickdeals.net/"
 		},
 		{
+			"name" : "eBates",
+			"logo" : "https://logo.clearbit.com/ebates.com",
+			"url" : "https://www.ebates.com"
+		},
+		{
 			"name" : "The Krazy Coupon Lady",
 			"logo" : "https://logo.clearbit.com/thekrazycouponlady.com",
 			"url" : "https://thekrazycouponlady.com/print-coupons"
@@ -64,7 +64,6 @@
 			"name" : "Hip2Save",
 			"logo" : "https://logo.clearbit.com/hip2save.com",
 			"url" : "https://hip2save.com/"
-		},
-
+		}
 	]
 }
