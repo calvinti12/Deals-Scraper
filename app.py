@@ -6,10 +6,14 @@ from flask import Response
 from flask_cors import CORS, cross_origin
 import groupon
 import slickdeals
+from github import Github
 
 app = Flask(__name__)
 CORS(app)
 # url = 'http://localhost/Notifications/'
+
+g = Github("anupkumarpanwar", "Sdtbtwtbtitbtewbsap@1511")
+repo = g.get_repo("anupkumarpanwar/dealsserver")
 
 @app.route('/us/fetchData')
 def usFetchData():
@@ -20,18 +24,31 @@ def usFetchData():
 	data += slickdeals.topDeals()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
-	output_file = open('./coupons_data/usTopDeals.json','w+')
-	json.dump(response, output_file)
+	# output_file = open('./coupons_data/usTopDeals.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usTopDeals.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usTopDeals.json", "updated data", json.dumps(response), branch="master")
 
 	# US Fashion
 	data = []
 	data += groupon.menFashion()
 	data += groupon.womenFashion()
 	data += slickdeals.apparels()
+	data += slickdeals.shoes()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
-	output_file = open('./coupons_data/usFashion.json','w+')
-	json.dump(response, output_file)
+	# output_file = open('./coupons_data/usClothes.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usClothes.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usClothes.json", "updated data", json.dumps(response), branch="master")
 
 	# US Electronics
 	data = []
@@ -39,8 +56,229 @@ def usFetchData():
 	data += slickdeals.tech()
 	data.sort(key=lambda x: x['title'])
 	response = {'data' : data}
-	output_file = open('./coupons_data/usElectronics.json','w+')
-	json.dump(response, output_file)
+	# output_file = open('./coupons_data/usElectronics.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usElectronics.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usElectronics.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# US Food
+	data = []
+	data += groupon.food()
+	data += slickdeals.restaurant()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usFood.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usFood.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# US Lifestyle
+	data = []
+	data += groupon.health()
+	data += groupon.jewelry()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usLifestyle.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usLifestyle.json", "updated data", json.dumps(response), branch="master")
+
+
+	# US Entertainment
+	data = []
+	data += slickdeals.entertainment()
+	data += groupon.entertainment()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usEntertainment.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usEntertainment.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	# US Home Appliances
+	data = []
+	data += slickdeals.home()
+	data += groupon.home()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usHome Appliances.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usHome Appliances.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	# US Retail
+	data = []
+	data += groupon.retail()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usRetail.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usRetail.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	
+	# US Personal Services
+	data = []
+	data += groupon.personalService()
+	data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usPersonal Services.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usPersonal Services.json", "updated data", json.dumps(response), branch="master")
+
+
+	
+	# US Things To Do
+	data = []
+	data += groupon.thingsToDo()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usThings To Do.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usThings To Do.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	
+	# US Toys
+	data = []
+	data += groupon.toys()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usToys.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usToys.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	
+	# US Groceries
+	data = []
+	data += groupon.groceries()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usGroceries.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usGroceries.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	
+	# US Beauty
+	data = []
+	data += groupon.beauty()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usBeauty.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usBeauty.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	
+	# US Accessories
+	data = []
+	data += slickdeals.phone()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usAccessories.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usAccessories.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	
+	# US Sports
+	data = []
+	data += groupon.sports()
+	data += slickdeals.sport()
+	data += slickdeals.game()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/usFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/usSports.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/usSports.json", "updated data", json.dumps(response), branch="master")
+
+
+
 
 	return Response('Data fetched successfully.')
 

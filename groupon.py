@@ -98,6 +98,3 @@ def hotels():
 def travel():
 	url = 'http://partner-api.groupon.com/deals.json?tsToken=&offset=0&limit=20&filters=category:tour-travel'
 	return getData(url)
-
-
-
