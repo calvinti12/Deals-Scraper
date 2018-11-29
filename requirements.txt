@@ -7,3 +7,4 @@ Jinja2==2.9.6
 networkx==1.11
 requests==2.13.0
 Werkzeug==0.12.2
+PyGithub==1.43.3 
