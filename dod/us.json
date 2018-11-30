@@ -1,6 +1,15 @@
 {
 	"deals" : [
 		{
+			"logo" : "https://logo.clearbit.com/retailmenot.com",
+			"name" : "RetailMeNot",
+			"provider" : "Best of Christmas Sales",
+			"image" : "http://www.clonmel.ie/uploads/6/2/9/4/62949191/img-christmasdeals-1_orig.jpg",
+			"website" : "RetailMeNot.net",
+			"shortDescription" : "You'll fa-la-la-la-love these savings.",
+			"url" : "https://www.retailmenot.com/holidays/christmas?c=9414447&redemptionChannel=online"
+		},
+		{
 			"logo" : "http://catchyfreebies.com/wp-content/uploads/2015/03/staples1.png",
 			"name" : "Staples",
 			"provider" : "Christmas Deal",
