@@ -1,6 +1,15 @@
 {
 	"deals" : [
 		{
+			"logo" : "https://logo.clearbit.com/netflix.com",
+			"name" : "Netflix",
+			"provider" : "Free Netflix Giveaway",
+			"image" : "https://www.releasesoon.com/wp-content/uploads/What%E2%80%99s-Next-in-Netflix%E2%80%99s-Future.jpg",
+			"website" : "Stacksocial.net",
+			"shortDescription" : "Win 2 years of standard Netflix and watch your favorite shows and movies.",
+			"url" : "https://stacksocial.com/giveaways/the-netflix-standard-2-year-giveaway"
+		},
+		{
 			"logo" : "https://logo.clearbit.com/retailmenot.com",
 			"name" : "RetailMeNot",
 			"provider" : "Best of Christmas Sales",
