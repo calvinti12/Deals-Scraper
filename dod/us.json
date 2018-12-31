@@ -1,13 +1,13 @@
 {
 	"deals" : [
 		{
-			"logo" : "https://logo.clearbit.com/groupon.com",
-			"name" : "Costa Mesa",
-			"provider" : "New Year's Eve OC",
-			"image" : "https://img.grouponcdn.com/deal/7f0a26a80fa14a7ca8f701601964478c/8c/v1/c700x420.jpg",
+			"logo" : "https://logo.clearbit.com/nike.com",
+			"name" : "Nike",
+			"provider" : "Nike: Extra 25% Off",
+			"image" : "http://img.grouponcdn.com/coupons/2TbJqBSeZf6qNtGoVD6NUhBg1naC/nikedec-600x250",
 			"website" : "Groupon.com",
-			"shortDescription" : "$20 for One General-Admission Ticket for New Year's Eve OC (Up to $75 Value)",
-			"url" : "https://www.groupon.com/deals/new-years-eve-orange-county"
+			"shortDescription" : "Get it now! Save an extra 25% on sale styles with this Nike promo code.",
+			"url" : "https://www.groupon.com/coupons?c=32a43d92-9b13-4cf6-a7df-7ff6f17ca560&strategy=autoredirect&eid=0e1796cb-009d-4eb3-9796-cb009daeb35a-1546271420107-4"
 		},
 		{
 			"logo" : "https://logo.clearbit.com/groupon.com",
