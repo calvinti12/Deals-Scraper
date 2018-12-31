@@ -1,31 +1,31 @@
 {
 	"deals" : [
 		{
-			"logo" : "https://logo.clearbit.com/netflix.com",
-			"name" : "Netflix",
-			"provider" : "Free Netflix Giveaway",
-			"image" : "https://www.releasesoon.com/wp-content/uploads/What%E2%80%99s-Next-in-Netflix%E2%80%99s-Future.jpg",
-			"website" : "Stacksocial.net",
-			"shortDescription" : "Win 2 years of standard Netflix and watch your favorite shows and movies.",
-			"url" : "https://stacksocial.com/giveaways/the-netflix-standard-2-year-giveaway"
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"name" : "Costa Mesa",
+			"provider" : "New Year's Eve OC",
+			"image" : "https://img.grouponcdn.com/deal/7f0a26a80fa14a7ca8f701601964478c/8c/v1/c700x420.jpg",
+			"website" : "Groupon.com",
+			"shortDescription" : "$20 for One General-Admission Ticket for New Year's Eve OC (Up to $75 Value)",
+			"url" : "https://www.groupon.com/deals/new-years-eve-orange-county"
 		},
 		{
-			"logo" : "https://logo.clearbit.com/retailmenot.com",
-			"name" : "RetailMeNot",
-			"provider" : "Best of Christmas Sales",
-			"image" : "http://www.clonmel.ie/uploads/6/2/9/4/62949191/img-christmasdeals-1_orig.jpg",
-			"website" : "RetailMeNot.net",
-			"shortDescription" : "You'll fa-la-la-la-love these savings.",
-			"url" : "https://www.retailmenot.com/holidays/christmas?c=9414447&redemptionChannel=online"
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"name" : "GameWorks",
+			"provider" : "Full day unlimited games",
+			"image" : "https://img.grouponcdn.com/deal/2K1GAQWM7g3M8RuYzNDMHce5H5CB/2K-6720x4480/v1/c700x420.jpg",
+			"website" : "Groupon.com",
+			"shortDescription" : "$20 for an All-Day Game Pass for One and $20 Game Card to GameWorks ($65 Value)",
+			"url" : "https://www.groupon.com/deals/gameworks-9-18"
 		},
 		{
-			"logo" : "http://catchyfreebies.com/wp-content/uploads/2015/03/staples1.png",
-			"name" : "Staples",
-			"provider" : "Christmas Deal",
-			"image" : "https://static-13.sinclairstoryline.com/resources/media/78d4e383-f850-416f-ad4d-499e4033e9e4-large16x9_1280x960_81119C00RSYOE.jpg?1542842862529",
-			"website" : "Slickdeals.net",
-			"shortDescription" : "Logitech M330 Silent Plus Wireless Mouse (Black or Gray) $8.99 + Free Store Pickup @ Staples",
-			"url" : "https://www.slickdeals.net"
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"name" : "Apple",
+			"provider" : "Apple Watch and Smartphones",
+			"image" : "https://img.grouponcdn.com/deal/2bhAoWxdoLP9tXecL9iw9xdVjWdZ/2b-1500x900/v1/c1400x840q75.jpg",
+			"website" : "Groupon.com",
+			"shortDescription" : "Element Works Dual Charging Stand for Apple Watch and Smartphones (1- or 2-Pack)",
+			"url" : "https://www.groupon.com/deals/gg-dual-2-in-1-charging-stand"
 		}
 	]
 }
