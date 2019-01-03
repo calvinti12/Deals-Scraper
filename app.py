@@ -436,200 +436,6 @@ def usFetchData():
 
 
 
-@app.route('/us/topDeals')
-def usTopDeals():
-	data_file = open('./coupons_data/usTopDeals.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Food')
-def usFood():
-	data_file = open('./coupons_data/usFashion.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Clothes')
-def usFashion():
-	data_file = open('./coupons_data/usFashion.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Electronics')
-def usElectronics():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Lifestyle')
-def usLifestyle():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Entertainment')
-def usEntertainment():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Home Appliances')
-def usHomeAppliances():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Retail')
-def usRetail():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-
-@app.route('/us/Personal Services')
-def usPersonalServices():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-
-@app.route('/us/Things To Do')
-def usThingsToDo():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-
-@app.route('/us/Toys')
-def usToys():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-
-@app.route('/us/Groceries')
-def usGroceries():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Beauty')
-def usBeauty():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-@app.route('/us/Accessories')
-def usAccessories():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-
-
-
-@app.route('/us/Sports')
-def usSports():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-@app.route('/us/Travel')
-def usTravel():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-@app.route('/us/Hotels')
-def usHotels():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-@app.route('/us/Pets')
-def usPets():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-@app.route('/us/Books')
-def usBooks():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-@app.route('/us/Flowers')
-def usFlowers():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-
-@app.route('/us/Automotive')
-def usAutomotive():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-
-@app.route('/us/Photography')
-def usPhotography():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-
-@app.route('/us/Baby')
-def usBaby():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
-@app.route('/us/Gifts')
-def usGifts():
-	data_file = open('./coupons_data/usElectronics.json','r')
-	response = json.load(data_file)
-	return Response(json.dumps(response),  mimetype='application/json')
-
 
 @app.route('/us/search/<query>')
 def usSearch(query):
@@ -639,671 +445,434 @@ def usSearch(query):
 	return Response(json.dumps(response),  mimetype='application/json')
 
 
-@app.route('/notificaionData')
-def fetchData():
-	url = 'https://www.groupon.com/'
-	response = requests.get(url)
-	html = response.content
 
-	data=[]
+
+
+
+
+@app.route('/india/fetchData')
+def indiaFetchData():
+
+	# india Top Deals
+	data = []
+	data += grabon.topDeals()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaTopDeals.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaTopDeals.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaTopDeals.json", "updated data", json.dumps(response), branch="master")
+
+	# india Fashion
+	data = []
+	data += grabon.apparels()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaClothes.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaClothes.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaClothes.json", "updated data", json.dumps(response), branch="master")
+
+	# india Electronics
+	data = []
+	data += grabon.electronics()
+	data += grabon.mobile()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaElectronics.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaElectronics.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaElectronics.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Food
+	data = []
+	data += grabon.food()
+	data += grabon.restaurant()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaFood.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaFood.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Lifestyle
+	data = []
+	data += grabon.health()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaLifestyle.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaLifestyle.json", "updated data", json.dumps(response), branch="master")
+
+
+	# india Entertainment
+	data = []
+	data += grabon.entertainment()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaEntertainment.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaEntertainment.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	# india Home Appliances
+	data = []
+	data += grabon.home()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaHome Appliances.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaHome Appliances.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	# india Retail
+	data = []
+	data += grabon.retail()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaRetail.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaRetail.json", "updated data", json.dumps(response), branch="master")
+
+
+
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('a')
-	for x in range(230, 250):
-
-		url= containers[x]['href']
-
-		image=containers[x].findAll('img', {"data-high-quality":True})
-		image=image[0]['data-high-quality']
-
-		title=containers[x].findAll('div', {'class':'cui-udc-subtitle c-txt-gray-dk'})
-		if len(title)>0:
-			title = str(title[0])[59:-19]
-		else:
-			title=''
-
-		description=containers[x].findAll('div', {'class':'cui-udc-title-with-subtitle c-txt-black one-line-truncate'})
-		if len(description)>0:
-			description=str(description[0])[84:-17]
-		else:
-			description=''
-		OneNotification={'image':image, 'title':title, 'description':description, 'url':url}
-		data.append(OneNotification)
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Personal Services
+	data = []
+	data += grabon.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaPersonal Services.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaPersonal Services.json", "updated data", json.dumps(response), branch="master")
 
 
-
-
-@app.route('/notificaionData2')
-def notificaionData2():
-	url = 'https://www.groupon.com/'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('a')
-	for x in range(218, 245):
-
-		url= containers[x]['href']
-
-		image=containers[x].findAll('img', {"data-high-quality":True})
-		image=image[0]['data-high-quality']
-
-		title=containers[x].findAll('div', {'class':'cui-udc-subtitle c-txt-gray-dk'})
-		if len(title)>0:
-			title = str(title[0])[59:-19]
-		else:
-			title=''
-
-		description=containers[x].findAll('div', {'class':'cui-udc-title-with-subtitle c-txt-black one-line-truncate'})
-		if len(description)>0:
-			description=str(description[0])[84:-17]
-		else:
-			description=''
-		OneNotification={'image':image, 'title':title, 'description':description, 'url':url}
-		data.append(OneNotification)
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Things To Do
+	data = []
+	data += grabon.events()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaThings To Do.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaThings To Do.json", "updated data", json.dumps(response), branch="master")
 
 
 
-
-
-@app.route('/grouponHome')
-def grouponHome():
-	url = 'https://www.groupon.com/'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('a')
-	for x in range(208, 219):
-
-		# print containers[x]['href']
-		url= containers[x]['href']
-
-		image=containers[x].findAll('img', {"data-high-quality":True})
-		# print x
-		# print image
-		image=image[0]['data-high-quality']
-
-		title=containers[x].findAll('div', {'class':'cui-udc-subtitle c-txt-gray-dk'})
-		if len(title)>0:
-			# # print str(title[0])[59:-19]
-			title = str(title[0])[59:-19]
-		else:
-			title=''
-
-		description=containers[x].findAll('div', {'class':'cui-udc-title-with-subtitle c-txt-black one-line-truncate'})
-		if len(description)>0:
-			# print str(description[0])[84:-17]
-			description=str(description[0])[84:-17]
-		else:
-			description=''
-		OneNotification={'image':image, 'title':title, 'description':description, 'url':url}
-		data.append(OneNotification)
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Toys
+	data = []
+	data += grabon.toys()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaToys.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaToys.json", "updated data", json.dumps(response), branch="master")
 
 
 
 
-@app.route('/grouponRestaurant')
-def grouponRestaurant():
-	url = 'https://www.groupon.com/occasion/groupon-plus'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('a')
-	for x in range(218, 260):
-
-		# print containers[x]['href']
-		url= containers[x]['href']
-
-		image=containers[x].findAll('img', {"data-high-quality":True})
-		# print x
-		# print image
-		image=image[0]['data-high-quality']
-
-		title=containers[x].findAll('div', {'class':'cui-udc-subtitle c-txt-gray-dk'})
-		if len(title)>0:
-			# # print str(title[0])[59:-19]
-			title = str(title[0])[59:-19]
-		else:
-			title=''
-
-		description=containers[x].findAll('div', {'class':'cui-udc-title-with-subtitle c-txt-black one-line-truncate'})
-		if len(description)>0:
-			# print str(description[0])[84:-17]
-			description=str(description[0])[84:-17]
-		else:
-			description=''
-		OneNotification={'image':image, 'title':title, 'description':description, 'url':url}
-		data.append(OneNotification)
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Groceries
+	data = []
+	data += grabon.groceries()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaGroceries.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaGroceries.json", "updated data", json.dumps(response), branch="master")
 
 
 
-
-
-
-@app.route('/grouponGoods')
-def grouponGoods():
-	url = 'https://www.groupon.com/goods'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('a')
-	for x in range(213, 245):
-
-		# print containers[x]['href']
-		url= containers[x]['href']
-
-		image=containers[x].findAll('img', {"data-high-quality":True})
-		# print x
-		# print image
-		image=image[0]['data-high-quality']
-
-		title=containers[x].findAll('div', {'class':'cui-udc-subtitle c-txt-gray-dk'})
-		if len(title)>0:
-			# print str(title[0])[59:-19]
-			title = str(title[0])[59:-19]
-		else:
-			title=''
-
-		description=containers[x].findAll('div', {'class':'cui-udc-title-with-subtitle c-txt-black one-line-truncate'})
-		if len(description)>0:
-			# print str(description[0])[84:-17]
-			description=str(description[0])[84:-17]
-		else:
-			description=''
-		OneNotification={'image':image, 'title':title, 'description':description, 'url':url}
-		data.append(OneNotification)
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Beauty
+	data = []
+	data += grabon.beauty()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaBeauty.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaBeauty.json", "updated data", json.dumps(response), branch="master")
 
 
 
-
-
-
-
-
-
-@app.route('/grabonMostUsed')
-def grabonMostUsed():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=1'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
-
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
-
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
-
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
-
-
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
-
-
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
+	# india Accessories
+	data = []
+	data += grabon.mobile()
+	data += grabon.recharge()
+	# data += slickdeals.personal()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaAccessories.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaAccessories.json", "updated data", json.dumps(response), branch="master")
 
 
 
-
-
-@app.route('/grabonRecharge')
-def grabonRecharge():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=6'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
 	
-	soup = BeautifulSoup(html, "html.parser")
+	# india Sports
+	data = []
+	data += grabon.sports()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaSports.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaSports.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Travel
+	data = []
+	data += grabon.travel()
+	data += grabon.flight()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaTravel.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaTravel.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Hotels
+	data = []
+	data += grabon.hotel()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaHotels.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaHotels.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Pets
+	data = []
+	data += grabon.pets()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaPets.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaPets.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+
+	# india Books
+	data = []
+	data += grabon.education()
+	data += grabon.books()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaBooks.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaBooks.json", "updated data", json.dumps(response), branch="master")
+
+
+
+
+	# india Flowers
+	data = []
+	data += grabon.flowers()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaFlowers.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaFlowers.json", "updated data", json.dumps(response), branch="master")
+
+
+
+	# india Automotive
+	data = []
+	data += grabon.automobile()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaAutomotive.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaAutomotive.json", "updated data", json.dumps(response), branch="master")
 
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
 
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
 
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
 
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
+	# india Photography
+	data = []
+	data += grabon.cameras()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaPhotography.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaPhotography.json", "updated data", json.dumps(response), branch="master")
 
 
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
 
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
 
+	# india Baby
+	data = []
+	data += grabon.baby()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaBaby.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaBaby.json", "updated data", json.dumps(response), branch="master")
 
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
 
-		except:
-			pass
 
-		
 
+	# india Gifts
+	data = []
+	data += grabon.gifts()
+	data.sort(key=lambda x: x['title'])
+	response = {'data' : data}
+	# output_file = open('./coupons_data/indiaFood.json','w+')
+	# json.dump(response, output_file)
+	try:
+		contents = repo.get_contents("coupons_data/indiaGifts.json", ref="master")
+		repo.delete_file(contents.path, "removed data", contents.sha, branch="master")
+	except:
+		pass
+	repo.create_file("coupons_data/indiaGifts.json", "updated data", json.dumps(response), branch="master")
 
-	return Response(json.dumps(data),  mimetype='application/json')
 
+	return Response('Data fetched successfully.')
 
 
 
 
-@app.route('/grabonTravel')
-def grabonTravel():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=5'
-	response = requests.get(url)
-	html = response.content
+@app.route('/india/search/<query>')
+def indiaSearch(query):
+	data = []
+	data += slickdeals.search(query)
+	response = {'data' : data}
+	return Response(json.dumps(response),  mimetype='application/json')
 
-	data=[]
-	
-	soup = BeautifulSoup(html, "html.parser")
 
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
 
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
 
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
 
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
 
-
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
-
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
-
-
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
-
-
-
-
-
-
-
-
-
-@app.route('/grabonFashion')
-def grabonFashion():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=7'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
-	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
-
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
-
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
-
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
-
-
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
-
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
-
-
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
-
-
-
-
-
-
-
-
-
-@app.route('/grabonFood')
-def grabonFood():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=4'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
-	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
-
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
-
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
-
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
-
-
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
-
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
-
-
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
-
-
-
-
-
-
-
-
-
-@app.route('/grabonElectronics')
-def grabonElectronics():
-	url = 'http://www.grabon.in/twentyfour/gettabdata?tabId=2'
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
-	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
-
-		# print containers[x]
-		# url= containers[x]['href']
-		try:
-			image=containers[x].findAll('img')
-			# print x
-			# print image
-			image=image[0]['src']
-			# print image
-
-			title=containers[x].findAll('div', {'class':'sc-h3'})
-			title=title[0].text
-			# print title
-
-			description=containers[x].findAll('h3', {'class':'sc-h4'})
-			description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
-
-
-			couponCode=containers[x].findAll('div', {'class': 's-code'})
-			couponCode=couponCode[0].text
-
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
-
-
-			OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
-
-
-
-
-
-
-
-@app.route('/grabonSearch/<query>')
-def grabonSearch(query):
-	# print query
-	url = 'http://www.grabon.in/search/?q='+query
-	response = requests.get(url)
-	html = response.content
-
-	data=[]
-	
-	soup = BeautifulSoup(html, "html.parser")
-
-	# containers=soup.findAll('div', {'class':'cui-content c-bdr-gray-clr ch-bdr-gray-md'})
-	containers=soup.findAll('article')
-	for x in range(0, len(containers)):
-
-		print (containers[x])
-		# url= containers[x]['href']
-		try:
-			# image=containers[x].findAll('img')
-			# print x
-			# print image
-			# image=image[0]['data-original']
-			# print (image)
-
-			# title=containers[x].findAll('div', {'class':'sc-h3'})
-			# title=title[0].text
-			# print title
-
-
-			title=containers[x].findAll('h3', {'class':'go-cpn-show'})
-			title=title[0].text
-
-			# description=containers[x].findAll('h3', {'class':'sc-h4'})
-			# description=description[0].text
-			# print description
-			
-			# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-			# # longDescription=longDescription[0]
-
-
-			couponCode=containers[x].findAll('div', {'class': 'go-cpBtn'})
-			# couponCode=couponCode[0].text
-			couponCode=couponCode[0].findAll('span')[0].text
-
-			if len(couponCode)<=3:
-				couponCode="No Coupon Code Required"
-
-
-			# OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-			OneNotification={'title':title,  'couponCode':couponCode}
-			data.append(OneNotification)
-
-		except:
-			pass
-
-	if len(data)==0:
-		containers=soup.findAll('article', {'class' : 'sm-coupon'})
-		for x in range(0, len(containers)):
-
-			# print containers[x]
-			# url= containers[x]['href']
-			try:
-				
-				image=''
-				# print image
-
-				
-				title=''
-				# # print title
-
-				description=containers[x].findAll('h3', {'class':'smci-h'})
-				description=description[0].text
-				# print description
-				
-				# longDescription=containers[x].findAll('div', {'class':'sc-des go-desc about-merchant'})
-				# # longDescription=longDescription[0]
-
-
-				couponCode=containers[x].findAll('div', {'class': 'sm-code'})
-				couponCode=couponCode[0].text
-
-				if len(couponCode)<=3:
-					couponCode="No Coupon Code Required"
-
-
-				OneNotification={'image':image, 'title':title, 'description':description, 'couponCode':couponCode}
-				data.append(OneNotification)
-
-			except:
-				pass
-		
-
-		
-
-
-	return Response(json.dumps(data),  mimetype='application/json')
 
 
 
