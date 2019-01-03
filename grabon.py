@@ -60,35 +60,35 @@ def getData(url):
 			dealContainer2 = dealContainer[0].findAll('div', {'class':'go-cOff'})
 			dealContainer3 = dealContainer2[0].findAll('span')
 			span = dealContainer3[0].findAll('img')
-			print(1)
+			# print(1)
 			
 			dealImage = span[0]['src']
-			print(2)
+			# print(2)
 
 			strong = dealContainer2[0].findAll('strong')
 
-			print(3)
+			# print(3)
 			title = strong[0].text
-			print(4)
+			# print(4)
 
 			dealContainer4 = dealContainer[0].findAll('div', {'class':'go-cTitle'})
 			p = dealContainer4[0].findAll('p')
 			shortDescription = p[0].text
-			print(5)
+			# print(5)
 		
 
 			dealUrl = 'https://www.grabon.in/coupon-codes/' + containers[x]['data-cid']
-			print(6)
+			# print(6)
 
 			dealContainer5 = dealContainer4[0].findAll('div', {'class':'go-cBtn'})
-			print(7)
+			# print(7)
 			a = dealContainer5[0].findAll('a')
 			small = a[0].findAll('small')
 
 
 			price = small[0].text
 
-			print(8)
+			# print(8)
 			
 			rating  = str(random.randint(35, 50)/10)
 
@@ -303,6 +303,3 @@ def personal():
 def events():
 	url = 'https://www.grabon.in/event-tickets-coupons/'
 	return getData(url)
-
-
-print(apparels())

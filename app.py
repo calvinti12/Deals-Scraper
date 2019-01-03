@@ -6,6 +6,7 @@ from flask import Response
 from flask_cors import CORS, cross_origin
 import groupon
 import slickdeals
+import grabon
 from github import Github
 
 app = Flask(__name__)
@@ -752,9 +753,12 @@ def indiaFetchData():
 		pass
 	repo.create_file("coupons_data/indiaPets.json", "updated data", json.dumps(response), branch="master")
 
+	return Response('Data fetched successfully.')
 
 
 
+@app.route('/india/fetchData2')
+def indiaFetchData2():
 
 	# india Books
 	data = []
