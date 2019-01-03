@@ -1,0 +1,31 @@
+{
+	"deals" : [
+		{
+			"logo" : "https://logo.clearbit.com/nike.com",
+			"name" : "Nike",
+			"provider" : "Nike: Extra 25% Off",
+			"image" : "http://img.grouponcdn.com/coupons/2TbJqBSeZf6qNtGoVD6NUhBg1naC/nikedec-600x250",
+			"website" : "Groupon.com",
+			"shortDescription" : "Get it now! Save an extra 25% on sale styles with this Nike promo code.",
+			"url" : "https://www.groupon.com/coupons?c=32a43d92-9b13-4cf6-a7df-7ff6f17ca560&strategy=autoredirect&eid=0e1796cb-009d-4eb3-9796-cb009daeb35a-1546271420107-4"
+		},
+		{
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"name" : "GameWorks",
+			"provider" : "Full day unlimited games",
+			"image" : "https://img.grouponcdn.com/deal/2K1GAQWM7g3M8RuYzNDMHce5H5CB/2K-6720x4480/v1/c700x420.jpg",
+			"website" : "Groupon.com",
+			"shortDescription" : "$20 for an All-Day Game Pass for One and $20 Game Card to GameWorks ($65 Value)",
+			"url" : "https://www.groupon.com/deals/gameworks-9-18"
+		},
+		{
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"name" : "Apple",
+			"provider" : "Apple Watch and Smartphones",
+			"image" : "https://img.grouponcdn.com/deal/2bhAoWxdoLP9tXecL9iw9xdVjWdZ/2b-1500x900/v1/c1400x840q75.jpg",
+			"website" : "Groupon.com",
+			"shortDescription" : "Element Works Dual Charging Stand for Apple Watch and Smartphones (1- or 2-Pack)",
+			"url" : "https://www.groupon.com/deals/gg-dual-2-in-1-charging-stand"
+		}
+	]
+}

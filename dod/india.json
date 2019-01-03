@@ -1,0 +1,31 @@
+{
+	"deals" : [
+		{
+			"logo" : "https://logo.clearbit.com/swiggy.com",
+			"name" : "Swiggy",
+			"provider" : "Coupons & Offers",
+			"image" : "https://d3pzq99hz695o4.cloudfront.net/sitespecific/in/banner/web/f23bc4c5b09f2be56afad53c3b3504dd/banner_home-355x1180.png?829752",
+			"website" : "Swiggy.com",
+			"shortDescription" : "50% Off on First 5 Swiggy Orders",
+			"url" : "https://www.coupondunia.in/swiggy?h=p0ijjkMXps&source=banner&content=banner-728"
+		},
+		{
+			"logo" : "https://logo.clearbit.com/grofers.com",
+			"name" : "Grofers",
+			"provider" : "Promo Code and Offers",
+			"image" : "https://d3pzq99hz695o4.cloudfront.net/sitespecific/in/banner/web/ebcf16b6f4362e4eb166701f291f742c/banner_home-355x1180.jpg?514522",
+			"website" : "Coupondunia.in",
+			"shortDescription" : "Join Now and Get 100% Cashback on Your Orders (19th-27th Jan)",
+			"url" : "https://www.coupondunia.in/grofers?h=nacPPlHkss&source=banner&content=banner-823"
+		},
+		{
+			"logo" : "https://logo.clearbit.com/mcdelivery.co.in",
+			"name" : "Coupon",
+			"provider" : "Free burger",
+			"image" : "https://cdn.greatdeals.com.sg/wp-content/uploads/2016/06/15230633/free-super-red-burger-mcd-promo-june-2016-ft-628x330.jpg",
+			"website" : "Shoppirate.in",
+			"shortDescription" : "Free Burger On Order Worth Rs. 339+",
+			"url" : "https://www.shoppirate.in/?c=508002"
+		}
+	]
+}

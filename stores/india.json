@@ -1,0 +1,74 @@
+{
+	"stores" : [
+		{
+			"name" : "MyTokri",
+			"logo" : "https://logo.clearbit.com/MyTokri.com",
+			"url" : "https://MyTokri.com"
+		},
+		{
+			"name" : "GreatBuyz",
+			"logo" : "https://logo.clearbit.com/GreatBuyz.com",
+			"url" : "https://GreatBuyz.com"
+		},
+		{
+			"name" : "CouponRaja",
+			"logo" : "https://logo.clearbit.com/CouponRaja.in",
+			"url" : "https://CouponRaja.in"
+		},
+		{
+			"name" : "Couponzguru",
+			"logo" : "https://logo.clearbit.com/Couponzguru.com",
+			"url" : "http://www.Couponzguru.com/"
+		},
+		{
+			"name" : "CouponDunia",
+			"logo" : "https://logo.clearbit.com/CouponDunia.in",
+			"url" : "http://www.CouponDunia.in"
+		},
+		{
+			"name" : "FreeCouponIndia",
+			"logo" : "https://logo.clearbit.com/FreeCouponIndia.in",
+			"url" : "https://www.FreeCouponIndia.in/"
+		},
+		{
+			"name" : "FreeKaaMaal",
+			"logo" : "https://logo.clearbit.com/FreeKaaMaal.com",
+			"url" : "https://FreeKaaMaal.com"
+		},
+		{
+			"name" : "Shoppirate",
+			"logo" : "https://logo.clearbit.com/Shoppirate.in",
+			"url" : "https://Shoppirate.in/"
+		},
+		{
+			"name" : "GrabOn",
+			"logo" : "https://logo.clearbit.com/GrabOn.in",
+			"url" : "https://www.GrabOn.in"
+		},
+		{
+			"name" : "CouponTrends",
+			"logo" : "https://logo.clearbit.com/CouponTrends.in",
+			"url" : "https://CouponTrends.in"
+		},
+		{
+			"name" : "CouponDekho",
+			"logo" : "https://logo.clearbit.com/CouponDekho.co.in",
+			"url" : "http://www.CouponDekho.co.in/"
+		},
+		{
+			"name" : "CouponsJi",
+			"logo" : "https://logo.clearbit.com/CouponsJi.in",
+			"url" : "https://www.CouponsJi.in/"
+		},
+		{
+			"name" : "CouponRani",
+			"logo" : "https://logo.clearbit.com/CouponRani.com",
+			"url" : "https://CouponRani.com/"
+		},
+		{
+			"name" : "Couponr",
+			"logo" : "https://logo.clearbit.com/Couponr.in",
+			"url" : "http://www.Couponr.in/"
+		}
+	]
+}
