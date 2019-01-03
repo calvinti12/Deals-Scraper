@@ -868,7 +868,7 @@ def indiaFetchData2():
 @app.route('/india/search/<query>')
 def indiaSearch(query):
 	data = []
-	data += slickdeals.search(query)
+	data += grabon.search(query)
 	response = {'data' : data}
 	return Response(json.dumps(response),  mimetype='application/json')
 
