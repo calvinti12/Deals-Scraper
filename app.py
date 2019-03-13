@@ -447,6 +447,15 @@ def usSearch(query):
 
 
 
+@app.route('/sg/search/<query>')
+def usSearch(query):
+	data = []
+	data += slickdeals.search(query)
+	response = {'data' : data}
+	return Response(json.dumps(response),  mimetype='application/json')
+
+
+
 
 
 

@@ -1,0 +1,44 @@
+{
+	"stores" : [
+		{
+			"name" : "StreetDeal",
+			"logo" : "https://logo.clearbit.com/streetdeal.sg",
+			"url" : "https://www.streetdeal.sg/"
+		},
+		{
+			"name" : "Groupon.com",
+			"logo" : "https://logo.clearbit.com/groupon.com",
+			"url" : "https://www.groupon.com/"
+		},
+		{
+			"name" : "DreatDeals",
+			"logo" : "https://logo.clearbit.com/greatdeals.com.sg/",
+			"url" : "https://www.greatdeals.com.sg/"
+		},
+		{
+			"name" : "Koovs",
+			"logo" : "https://logo.clearbit.com/koovs.com",
+			"url" : "https://www.koovs.com/"
+		},
+		{
+			"name" : "CityNomads",
+			"logo" : "https://logo.clearbit.com/citynomads.com/",
+			"url" : "https://www.citynomads.com/"
+		},
+		{
+			"name" : "UrbanJourney",
+			"logo" : "https://logo.clearbit.com/urbanjourney.com",
+			"url" : "https://urbanjourney.com/"
+		},
+		{
+			"name" : "SingPromos",
+			"logo" : "https://logo.clearbit.com/singpromos.com",
+			"url" : "https://singpromos.com/"
+		},
+		{
+			"name" : "Bargain Queen",
+			"logo" : "https://logo.clearbit.com/bq.sg",
+			"url" : "http://bq.sg/"
+		}
+	]
+}
