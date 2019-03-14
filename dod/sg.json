@@ -1,0 +1,31 @@
+{
+	"deals" : [
+		{
+			"logo" : "https://logo.clearbit.com/picodi.com",
+			"name" : "GrabFood",
+			"provider" : "GrabFood Promo Code: 40% Off",
+			"image" : "https://cdn.whynotdeals.com/uploads/2018/10/grabfood-singapore-get-40-off-with-promo-code-munchies-29-oct-4-nov-2018_why-not-deals-1024x564.jpg",
+			"website" : "GrabFood.com",
+			"shortDescription" : "Use this Grab promo code to take 40% off food. The deal is capped at $25 and a minimum spend of $40 is needed.",
+			"url" : "https://www.picodi.com/sg/top#cid=43680"
+		},
+		{
+			"logo" : "https://logo.clearbit.com/shopee.com",
+			"name" : "Shopee",
+			"provider" : "Shopee Voucher Code - Enjoy $13 OFF",
+			"image" : "http://images.getcardable.com/sg/images/es/shopee.png",
+			"website" : "Freshly Landed Deals",
+			"shortDescription" : "Here is your voucher code! - NEW13",
+			"url" : "https://vouchers.todayonline.com/shopee-coupons/?_id=ca96dce3440c171c94acb18c4f7facd9c11cfef7&position=2&sub_product=coupon-category&_exit=https://vouchers.todayonline.com/coupons-food-grocery/"
+		},
+		{
+			"logo" : "https://djzcclbfwtbr1.cloudfront.net/images/logo.svg",
+			"name" : "Microsoft ",
+			"provider" : "Get a $1,361 discount",
+			"image" : "https://cdn.techstuffer.com/files/uploads/2017/03/Microsoft-Surface-Pro-4-Deals.png",
+			"website" : "Cuponation.com.sg",
+			"shortDescription" : "Surface Laptop 1st Gen with this Microsoft Store redeem code",
+			"url" : "https://www.cuponation.com.sg/microsoft-promo-code#voucher-867613"
+		}
+	]
+}
