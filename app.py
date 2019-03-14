@@ -448,7 +448,7 @@ def usSearch(query):
 
 
 @app.route('/sg/search/<query>')
-def usSearch(query):
+def sgSearch(query):
 	data = []
 	data += slickdeals.search(query)
 	response = {'data' : data}
